@@ -17,6 +17,8 @@ id boxPassword
 id btn1
 id btn2
 id continuar
+id eliminado
+id eliminar
 id name
 id registro
 id textView
@@ -25,6 +27,7 @@ id textView14
 id textView15
 id textView2
 id textView3
+id textView4
 id textView8
 id titulo
 layout activity_actualizar
