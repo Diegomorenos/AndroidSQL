@@ -23,7 +23,7 @@ import java.util.Map;
 
 public class Ingreso extends AppCompatActivity {
 
-    Button continuar;
+    Button continuar, regresar;
     EditText boxDoc, boxEstado, boxPassword, boxFecha;
 
     @Override
@@ -36,7 +36,14 @@ public class Ingreso extends AppCompatActivity {
         boxEstado = findViewById(R.id.boxEstado);
         boxFecha = findViewById(R.id.boxFecha);
         continuar = findViewById(R.id.continuar);
+        regresar = findViewById(R.id.regresar);
 
+        regresar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Ingreso.this, MenuPrincipal.class));
+            }
+        });
         continuar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

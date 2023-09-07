@@ -10,18 +10,38 @@ import android.widget.EditText;
 
 public class MenuPrincipal extends AppCompatActivity {
 
-    Button btn2;
-    EditText name;
+    Button salir, eliminar, registrar, buscar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_principal);
 
-        btn2 = findViewById(R.id.btn2);
-        name = findViewById(R.id.name);
+        salir = findViewById(R.id.btn2);
+        eliminar = findViewById(R.id.eliminar);
+        registrar = findViewById(R.id.registrar);
+        buscar = findViewById(R.id.consultar);
 
-        btn2.setOnClickListener(new View.OnClickListener() {
+        buscar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MenuPrincipal.this, Buscar.class));
+            }
+        });
+        registrar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MenuPrincipal.this, Ingreso.class));
+            }
+        });
+        eliminar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MenuPrincipal.this, Eliminar.class));
+            }
+        });
+
+        salir.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 

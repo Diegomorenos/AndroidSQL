@@ -24,7 +24,7 @@ import java.util.Map;
 public class Eliminar extends AppCompatActivity {
 
     EditText id;
-    Button btn;
+    Button btn, regresar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +33,14 @@ public class Eliminar extends AppCompatActivity {
 
         id = findViewById(R.id.eliminado);
         btn = findViewById(R.id.eliminar);
+        regresar = findViewById(R.id.regresar);
+
+        regresar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Eliminar.this, MenuPrincipal.class));
+            }
+        });
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override

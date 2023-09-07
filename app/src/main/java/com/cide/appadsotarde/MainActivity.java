@@ -22,7 +22,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
-    Button btn1, registro;
+    Button btn1;
     EditText boxDoc, boxPass;
 
     @SuppressLint("MissingInflatedId")
@@ -30,17 +30,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        registro = findViewById(R.id.registro);
         btn1 = findViewById(R.id.btn1);
         boxDoc = findViewById(R.id.boxDoc);
         boxPass = findViewById(R.id.boxPass);
 
-        registro.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, Ingreso.class));
-            }
-        });
         btn1.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
@@ -53,9 +46,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onResponse(String response) {
                 if(!response.isEmpty()){
-                    Toast.makeText(getApplicationContext(),"Bienvenido: " + response, Toast.LENGTH_SHORT).show();
-                    //Intent intent = new Intent(getApplicationContext(), MenuPrincipal.class);
-                    //startActivity(intent);
+                    if (!response.equals(null)) {
+                        Toast.makeText(getApplicationContext(), "Bienvenido: " + response, Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(getApplicationContext(), MenuPrincipal.class);
+                        startActivity(intent);
+                    }
                 }else{
                     Toast.makeText(getApplicationContext(),"Usuario o contraseña incorrecta", Toast.LENGTH_SHORT).show();
                 }

@@ -8,13 +8,13 @@
 
     <Button
         android:id="@+id/continuar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="100dp"
+        android:layout_width="141dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="156dp"
         android:text="Continuar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
@@ -23,6 +23,8 @@
         android:layout_height="40dp"
         android:layout_marginStart="172dp"
         android:layout_marginTop="224dp"
+        android:background="@drawable/borde_de_texto"
+
         android:ems="10"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -34,6 +36,8 @@
         android:layout_marginStart="172dp"
         android:layout_marginTop="288dp"
         android:ems="10"
+        android:background="@drawable/borde_de_texto"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -44,6 +48,8 @@
         android:layout_marginStart="172dp"
         android:layout_marginTop="348dp"
         android:ems="10"
+        android:background="@drawable/borde_de_texto"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -54,6 +60,8 @@
         android:layout_marginStart="172dp"
         android:layout_marginTop="408dp"
         android:ems="10"
+        android:background="@drawable/borde_de_texto"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -115,6 +123,17 @@
         android:textAlignment="textEnd"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/regresar"
+        android:layout_width="146dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="612dp"
+        android:text="Volver"
+        app:icon="@android:drawable/ic_media_rew"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

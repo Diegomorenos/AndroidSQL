@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/degradado_fondo"
     tools:context=".MenuPrincipal">
 
     <TextView
@@ -14,7 +15,7 @@
         android:layout_marginTop="92dp"
         android:foregroundTint="@color/teal_700"
         android:text="Menú Principal"
-        android:textColor="@color/purple_700"
+        android:textColor="@color/white"
         android:textColorHighlight="@color/purple_500"
         android:textColorLink="@color/purple_700"
         android:textSize="24sp"
@@ -28,32 +29,40 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="64dp"
         android:layout_marginBottom="52dp"
-        android:text="Regresar"
+        android:text="Salir"
+        android:background="@color/black"
         app:icon="@android:drawable/ic_media_rew"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <EditText
-        android:id="@+id/name"
-        android:layout_width="240dp"
-        android:layout_height="54dp"
-        android:layout_marginTop="324dp"
-        android:layout_marginEnd="64dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="..."
+    <Button
+        android:id="@+id/eliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="512dp"
+        android:layout_marginEnd="60dp"
+        android:text="Eliminar Usuario"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView3"
+    <Button
+        android:id="@+id/consultar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="340dp"
-        android:text="Hola!"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="60dp"
+        android:text="Buscar Usuario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="60dp"
+        android:text="Crear Usuario"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

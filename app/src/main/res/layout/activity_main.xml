@@ -10,35 +10,42 @@
         android:id="@+id/btn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="244dp"
-        android:layout_marginTop="452dp"
-        android:text="siguiente"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="484dp"
+        android:text="ingresar"
+        android:textAlignment="gravity"
+        app:icon="@android:drawable/ic_media_ff"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/boxDoc"
-        android:layout_width="277dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="208dp"
+        android:layout_width="296dp"
+        android:layout_height="48dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="Documento"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.329" />
 
     <EditText
         android:id="@+id/boxPass"
-        android:layout_width="276dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="312dp"
+        android:layout_width="298dp"
+        android:layout_height="48dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="Contraseña"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
 
     <TextView
         android:id="@+id/textView"
@@ -53,15 +60,5 @@
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/registro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="52dp"
-        android:layout_marginBottom="60dp"
-        android:text="REGISTRARSE"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

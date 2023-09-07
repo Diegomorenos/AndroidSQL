@@ -6,112 +6,117 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml
+8-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml
+9-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml:5:22-64
+11-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml:6:5-79
-12-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml:6:22-76
+12-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:6:22-76
 13
 14    <permission
-14-->[androidx.core:core:1.9.0] C:\Users\gveje\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+14-->[androidx.core:core:1.9.0] C:\Users\SENA\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
 15        android:name="com.cide.appadsotarde.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-15-->[androidx.core:core:1.9.0] C:\Users\gveje\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+15-->[androidx.core:core:1.9.0] C:\Users\SENA\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
 16        android:protectionLevel="signature" />
-16-->[androidx.core:core:1.9.0] C:\Users\gveje\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+16-->[androidx.core:core:1.9.0] C:\Users\SENA\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 17
 18    <uses-permission android:name="com.cide.appadsotarde.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-18-->[androidx.core:core:1.9.0] C:\Users\gveje\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-18-->[androidx.core:core:1.9.0] C:\Users\gveje\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+18-->[androidx.core:core:1.9.0] C:\Users\SENA\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] C:\Users\SENA\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 19
 20    <application
-20-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml:8:5-38:19
+20-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:8:5-41:19
 21        android:allowBackup="true"
-21-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml:9:9-35
+21-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:9:9-35
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-22-->[androidx.core:core:1.9.0] C:\Users\gveje\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+22-->[androidx.core:core:1.9.0] C:\Users\SENA\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 23        android:dataExtractionRules="@xml/data_extraction_rules"
-23-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml:10:9-65
+23-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:10:9-65
 24        android:debuggable="true"
 25        android:extractNativeLibs="false"
 26        android:fullBackupContent="@xml/backup_rules"
-26-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml:11:9-54
+26-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:11:9-54
 27        android:icon="@mipmap/ic_launcher"
-27-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml:12:9-43
+27-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:12:9-43
 28        android:label="@string/app_name"
-28-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml:13:9-41
+28-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:13:9-41
 29        android:supportsRtl="true"
-29-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml:14:9-35
-30        android:testOnly="true"
-31        android:theme="@style/Theme.AppADSOTarde" >
-31-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml:15:9-50
-32        <activity
-32-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml:17:9-19:40
-33            android:name="com.cide.appadsotarde.Eliminar"
-33-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml:18:13-37
-34            android:exported="false" />
-34-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml:19:13-37
-35        <activity
-35-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml:20:9-22:40
-36            android:name="com.cide.appadsotarde.Actualizar"
-36-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml:21:13-39
-37            android:exported="false" />
-37-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml:22:13-37
-38        <activity
-38-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml:23:9-25:40
-39            android:name="com.cide.appadsotarde.Ingreso"
-39-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml:24:13-36
-40            android:exported="false" />
-40-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml:25:13-37
-41        <activity
-41-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml:26:9-28:40
-42            android:name="com.cide.appadsotarde.MenuPrincipal"
-42-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml:27:13-42
-43            android:exported="false" />
-43-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml:28:13-37
-44        <activity
-44-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml:29:9-37:20
-45            android:name="com.cide.appadsotarde.MainActivity"
-45-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml:30:13-41
-46            android:exported="true" >
-46-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml:31:13-36
-47            <intent-filter>
-47-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml:32:13-36:29
-48                <action android:name="android.intent.action.MAIN" />
-48-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml:33:17-69
-48-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml:33:25-66
-49
-50                <category android:name="android.intent.category.LAUNCHER" />
-50-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml:35:17-77
-50-->C:\Users\gveje\Desktop\DIEGO\ADSO\Android\AndroidSQL\app\src\main\AndroidManifest.xml:35:27-74
-51            </intent-filter>
-52        </activity>
-53
-54        <provider
-54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\gveje\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-55            android:name="androidx.startup.InitializationProvider"
-55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\gveje\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-56            android:authorities="com.cide.appadsotarde.androidx-startup"
-56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\gveje\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-57            android:exported="false" >
-57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\gveje\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-58            <meta-data
-58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\gveje\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-59                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\gveje\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-60                android:value="androidx.startup" />
-60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\gveje\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-61            <meta-data
-61-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\gveje\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-62                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-62-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\gveje\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-63                android:value="androidx.startup" />
-63-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\gveje\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-64        </provider>
-65    </application>
-66
-67</manifest>
+29-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:14:9-35
+30        android:theme="@style/Theme.AppADSOTarde" >
+30-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:15:9-50
+31        <activity
+31-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:17:9-19:40
+32            android:name="com.cide.appadsotarde.Buscar"
+32-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:18:13-35
+33            android:exported="false" />
+33-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:19:13-37
+34        <activity
+34-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:20:9-22:40
+35            android:name="com.cide.appadsotarde.Eliminar"
+35-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:21:13-37
+36            android:exported="false" />
+36-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:22:13-37
+37        <activity
+37-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:23:9-25:40
+38            android:name="com.cide.appadsotarde.Actualizar"
+38-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:24:13-39
+39            android:exported="false" />
+39-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:25:13-37
+40        <activity
+40-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:26:9-28:40
+41            android:name="com.cide.appadsotarde.Ingreso"
+41-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:27:13-36
+42            android:exported="false" />
+42-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:28:13-37
+43        <activity
+43-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:29:9-31:40
+44            android:name="com.cide.appadsotarde.MenuPrincipal"
+44-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:30:13-42
+45            android:exported="false" />
+45-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:31:13-37
+46        <activity
+46-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:32:9-40:20
+47            android:name="com.cide.appadsotarde.MainActivity"
+47-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:33:13-41
+48            android:exported="true" >
+48-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:34:13-36
+49            <intent-filter>
+49-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:35:13-39:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:36:17-69
+50-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:36:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:38:17-77
+52-->C:\Users\SENA\AndroidStudioProjects\AndroidSQL\app\src\main\AndroidManifest.xml:38:27-74
+53            </intent-filter>
+54        </activity>
+55
+56        <provider
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\SENA\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+57            android:name="androidx.startup.InitializationProvider"
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\SENA\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+58            android:authorities="com.cide.appadsotarde.androidx-startup"
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\SENA\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+59            android:exported="false" >
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\SENA\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+60            <meta-data
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\SENA\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+61                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\SENA\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+62                android:value="androidx.startup" />
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\SENA\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+63            <meta-data
+63-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\SENA\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+64                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+64-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\SENA\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+65                android:value="androidx.startup" />
+65-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\SENA\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+66        </provider>
+67    </application>
+68
+69</manifest>
