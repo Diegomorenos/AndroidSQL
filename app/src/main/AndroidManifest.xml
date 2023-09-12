@@ -21,16 +21,13 @@
             android:name=".Eliminar"
             android:exported="false" />
         <activity
-            android:name=".Actualizar"
-            android:exported="false" />
-        <activity
             android:name=".Ingreso"
             android:exported="false" />
         <activity
-            android:name=".MenuPrincipal"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".MenuPrincipal"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

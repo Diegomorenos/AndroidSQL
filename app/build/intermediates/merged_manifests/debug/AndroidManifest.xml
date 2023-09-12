@@ -36,16 +36,13 @@
             android:name="com.cide.appadsotarde.Eliminar"
             android:exported="false" />
         <activity
-            android:name="com.cide.appadsotarde.Actualizar"
-            android:exported="false" />
-        <activity
             android:name="com.cide.appadsotarde.Ingreso"
             android:exported="false" />
         <activity
-            android:name="com.cide.appadsotarde.MenuPrincipal"
+            android:name="com.cide.appadsotarde.MainActivity"
             android:exported="false" />
         <activity
-            android:name="com.cide.appadsotarde.MainActivity"
+            android:name="com.cide.appadsotarde.MenuPrincipal"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

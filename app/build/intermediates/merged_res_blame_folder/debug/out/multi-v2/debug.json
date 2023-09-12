@@ -3696,24 +3696,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\APRENDIZ\\Documents\\AndroidSQL\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "7,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "293,57,105,153,201,247,336",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "330,99,147,195,241,287,373"
-                    },
-                    "to": {
-                        "startLines": "638,943,944,945,956,957,960",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "32659,55388,55435,55482,56226,56271,56437",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "32696,55430,55477,55524,56266,56311,56474"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\APRENDIZ\\Documents\\AndroidSQL\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "D:\\AndroidSQL\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",
@@ -3763,6 +3746,25 @@
                         "startOffsets": "121534",
                         "endColumns": "53",
                         "endOffsets": "121583"
+                    }
+                },
+                {
+                    "source": "D:\\AndroidSQL\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "815"
+                    },
+                    "to": {
+                        "startLines": "6253",
+                        "startColumns": "4",
+                        "startOffsets": "436839",
+                        "endLines": "6265",
+                        "endColumns": "12",
+                        "endOffsets": "437419"
                     }
                 },
                 {
@@ -3833,6 +3835,23 @@
                         "startOffsets": "121588",
                         "endColumns": "49",
                         "endOffsets": "121633"
+                    }
+                },
+                {
+                    "source": "D:\\AndroidSQL\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "7,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "293,57,105,153,201,247,336",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "330,99,147,195,241,287,373"
+                    },
+                    "to": {
+                        "startLines": "638,943,944,945,956,957,960",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "32659,55388,55435,55482,56226,56271,56437",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "32696,55430,55477,55524,56266,56311,56474"
                     }
                 },
                 {
@@ -3981,25 +4000,6 @@
                         "endLines": "1777,1809,1846,11263,11267",
                         "endColumns": "56,64,63,24,24",
                         "endOffsets": "118130,119783,121697,708175,708324"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\APRENDIZ\\Documents\\AndroidSQL\\app\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "102",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "815"
-                    },
-                    "to": {
-                        "startLines": "6253",
-                        "startColumns": "4",
-                        "startOffsets": "436839",
-                        "endLines": "6265",
-                        "endColumns": "12",
-                        "endOffsets": "437419"
                     }
                 },
                 {
@@ -5127,7 +5127,24 @@
             "outputFile": "com.cide.appadsotarde.app-merged_res-29:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\APRENDIZ\\Documents\\AndroidSQL\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Users\\APRENDIZ\\.gradle\\caches\\transforms-3\\44fc53ad3ef1477fcc7b5dbdbf1cb4c0\\transformed\\appcompat-1.6.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "15,16,17,18,19,20,21,47",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "640,710,794,878,974,1076,1178,4033",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "705,789,873,969,1071,1173,1267,4117"
+                    }
+                },
+                {
+                    "source": "D:\\AndroidSQL\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -5143,23 +5160,6 @@
                         "endLines": "14",
                         "endColumns": "12",
                         "endOffsets": "635"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\APRENDIZ\\.gradle\\caches\\transforms-3\\44fc53ad3ef1477fcc7b5dbdbf1cb4c0\\transformed\\appcompat-1.6.1\\res\\values-night-v8\\values-night-v8.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,125,209,293,389,491,593,687",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "120,204,288,384,486,588,682,771"
-                    },
-                    "to": {
-                        "startLines": "15,16,17,18,19,20,21,47",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "640,710,794,878,974,1076,1178,4033",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "705,789,873,969,1071,1173,1267,4117"
                     }
                 },
                 {
